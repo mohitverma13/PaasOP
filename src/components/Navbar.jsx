@@ -21,7 +21,7 @@ const Navbar = () => {
 
                 </ul> */}
 
-                <button className='flex justify-center items-center my-5 h-11 border-green-700 border-2 rounded-lg hover:scale-95 transition-all ease-in-out  '>
+                <button className='flex justify-center items-center my-5 h-11 border-green-700 border-2 rounded-lg hover:scale-95 transition-all ease-in-out ring-white ring-2'>
                     <img className='p-6 w-[82px] py-1  filter invert' src="/icons/github.svg" alt="github logo" />
                     <span className="font-semibold px-2">Github</span>
                 </button>
@@ -32,3 +32,6 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+//npm i uuid--->for unique id
