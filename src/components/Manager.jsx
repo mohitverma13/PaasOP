@@ -72,6 +72,7 @@ const Manager = () => {
         }
         else {
             alert("Show password");
+            console.log("Show password")
         }
         setShowPassword(prevState => !prevState);
     };
